@@ -5,7 +5,7 @@ const db = knex({
     client: 'postgresql',
     connection: {
         host: '127.0.0.1',
-        port: '5433',
+        port: '5432',
         user: 'scphostdb',
         password: 'scphostdb',
         database: 'scphostdb'

@@ -16,7 +16,7 @@ import { geolocateIp } from '@devoxa/ip-geolocation';
 import dns from 'dns';
 import isPortReachable from 'is-port-reachable';
 
-var DEBUG_PLS = false;
+var DEBUG_PLS = true;
 
 var app = express();
 

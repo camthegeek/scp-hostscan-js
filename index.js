@@ -79,8 +79,8 @@ async function scanHostDB() {
           count++;
             console.log(count)
           // if we've already scanned before, do something else.
-                let oldHost = prevHosts.filter((e) => e.publickeystring === data.data.hosts[i].publickeystring)
-                console.log(oldHost)
+                //let oldHost = prevHosts.filter((e) => e.publickeystring === data.data.hosts[i].publickeystring)
+                //console.log(oldHost)
 
                 // if is a new host
 
